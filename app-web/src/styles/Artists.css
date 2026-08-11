@@ -1,0 +1,21 @@
+.artists-container{
+    margin: 50px 0;
+}
+
+.subtitle{
+    font-size: 1.3em;
+}
+
+.time-range-select{
+    background: none;
+    color: #fff;
+    font-size: 1.2em;
+    margin: 0 15px;
+    border: none;
+    font-weight: 500;
+}
+
+.time-range-select option{
+    color: #fff;
+    background-color: #1E1E1E ;
+}

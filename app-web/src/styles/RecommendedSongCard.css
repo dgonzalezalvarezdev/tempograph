@@ -1,0 +1,122 @@
+.recommended-card{
+    border-top: solid 4px #fff;
+    border-bottom: solid 4px #fff;
+    padding: 30px 100px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.recommended-card-img{
+    width: 250px;
+    border-radius: 2% 2% 2% 2%;
+}
+
+.recommended-card-top{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.recommended-card-text{
+    padding: 0 20px 0 30px;
+}
+
+.recommended-card-title{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+    padding: 40px 0;
+}
+
+.card-text{
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.recommended-card-body{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.recommended-card-listen{
+    color: #fff;
+    border: #fff solid 2px;
+    padding: 20px 50px;
+    font-size: 1.3em;
+    font-weight: 500;
+    margin: 30px 0;
+    display: inline-block;
+}
+
+.recommended-card-listen:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.recommended-card-feedback-button{
+    font-size: 2em;
+    width: fit-content;
+    padding: 0;
+}
+
+.recommended-card-feedback-text{
+    background: none;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 1.2em;
+    min-height: 100px;
+    resize: none;
+    border-radius: 5px;
+}
+
+.recommended-card-feedback-text::placeholder {
+  color: #fff;
+}
+
+.recommended-card-feedback-send{
+    color: #fff;
+    border: #fff solid 2px;
+    padding: 20px 50px;
+    font-size: 1.5em;
+    font-weight: 500;
+    margin: 20px 0;
+    display: inline-block;
+}
+
+.recommended-card-feedback-send:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.recommended-card-feedback-container{
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.recommended-card-button-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.recommended-card-container-listen{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.recommended-card-feedback-title{
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 500;
+    margin: 0;
+}
+  
+.recommended-card-feedback-button.selected {
+    background-color: #6e6e6e; /* Fondo cuando está seleccionado */
+    color: #fff; /* Texto blanco */
+    transform: scale(1.1); /* Efecto de escala para destacar */
+}

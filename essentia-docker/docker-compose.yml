@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  essentia:
+    build: .
+    ports:
+      - "5000:5000"
+    stdin_open: true
+    tty: true

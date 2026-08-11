@@ -1,0 +1,6 @@
+flask
+numpy<2
+essentia
+youtube-search-python
+yt-dlp
+httpx==0.24.1

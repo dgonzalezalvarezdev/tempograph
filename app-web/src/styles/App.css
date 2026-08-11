@@ -1,0 +1,128 @@
+.app-container {
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #272727, #161616);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #272727, #161616); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  min-height: 100vh;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  font-size: 1rem;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.nav-btn {
+  font-size: 1.5rem;
+}
+
+.btn{
+  margin: 0 10px;
+  padding: 10px 15px;
+}
+
+.logo {
+  width: 50px;
+  margin-right: 10px;
+  border-radius: 100%;
+  margin-bottom: 0;
+}
+
+.main-content {
+  flex: 1;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.btn-success {
+  font-size: 2em;
+  font-weight: 600;
+  padding: 30px 60px;
+  background-color: #1db954;
+  border-color: #1db954;
+  color: #fff;
+  border-radius: 20px;
+}
+
+.btn-success:hover {
+  background-color: #1ce662;
+  border-color: #1ce662;
+}
+
+.dropdown-button{
+  background: none;
+  border: none;
+  font-size: 1.5em;
+  color: #fff;
+  font-weight: 500;
+  margin-right: 15px;
+}
+
+.dropdown-button:hover{
+  background: none;
+  border: none;
+}
+
+.dropdown-menu{
+  background: #1E1E1E;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-item{
+  color: #fff;
+  font-size: 1.3em;
+}
+
+
+.spinner-custom{
+  color: #fff;
+  width: 30px;
+  height: 30px;
+}
+
+.button-alert{
+  background: none;
+  border: none;
+  height: fit-content;
+  width: fit-content;
+}
+
+.success-container{
+  background: #1ce66371;
+  border-radius: 5px;
+  padding: 15px 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.btn-close{
+  margin-left: 15px;
+  height: 10px;
+  width: 10px;
+}
+
+.alert-container{
+  display: flex;
+  align-items: center;
+}
+
+.alert-text-container{
+  font-weight: bold;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  background-color: var(--bs-warning-bg-subtle);
+  color: var(--bs-warning-text-emphasis);
+  border-radius: 5px;
+  padding: 15px 20px;
+}

@@ -1,0 +1,165 @@
+.admin-container {
+  display: flex;
+  position: relative;
+}
+
+.sidebar {
+  background-color: none;
+  padding: 1rem;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 105px;
+  margin-left: 20px;
+  position: sticky;
+}
+
+.sidebar-btn {
+  background: none;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 20px 15px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.sidebar-btn:hover {
+  background: #068532;
+  color: #ffffff;
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.admin-header {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.admin-table {
+  border: 2px solid white;
+  border-radius: 10px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.admin-input{
+    flex: 1;        
+    background: none;
+    color: #ffffff;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px 15px;
+    font-size: 1.2em;
+    display: block;
+    margin: 0 15px;
+    margin-bottom: 30px;
+}
+
+.admin-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #252525;
+    padding: 15px;
+    border-radius: 8px;
+    gap: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.admin-row:hover {
+    background-color: #333;
+}
+
+.row-trash{
+    width: fit-content;
+    background: none;
+    border: none;
+}
+
+.pressed{
+    background-color: #068532;
+}
+
+.row-name {
+    color: white;
+    font-size: 1.2rem;
+    flex: 1;
+    margin: 0;
+}
+
+.row-info {
+    color: #bbb;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.row-trash {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.row-trash img {
+    width: 30;
+    height: 30px;
+}
+
+.row-img {
+    border-radius: 5px;
+    max-width: 75px;
+    height: auto;
+}
+
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.pagination-button{
+    width: fit-content;
+    background: none;
+    border: none;
+}
+
+.admin-text{
+  font-size: 1.4em;
+  font-weight: 700;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.charts-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.chart {
+  flex: 1 1 45%;
+  max-width: 500px;
+  height: 300px;
+  overflow: auto;
+}

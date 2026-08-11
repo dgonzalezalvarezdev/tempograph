@@ -1,0 +1,38 @@
+.track-card {
+    display: flex;
+    align-items: center;
+    min-width: 800px;
+    max-width: 1300px;
+    height: 200px;
+    margin: 20px 0;
+}
+
+.track-card + .track-card{
+    border-top: 5px solid rgb(255, 255, 255);
+}
+
+.track-image {
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+.track-details {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.track-title {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin: 0;
+    color: inherit;
+    text-decoration: none;
+}
+
+.track-artists, .track-album, .track-duration {
+    font-size: 1em;
+    margin: 2px 0;
+}
